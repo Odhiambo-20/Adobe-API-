@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="patient-info">
+            <img id="patient-profile-picture" src="" alt="Profile Picture" class="profile-picture" />
+            <div class="patient-details">
+                <h2 id="patient-name" class="patient-name"></h2>
+                <p id="patient-age" class="patient-age"></p>
+                <p id="patient-gender" class="patient-gender"></p>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="blood-pressure-chart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
